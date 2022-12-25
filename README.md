@@ -50,3 +50,24 @@ npm install
 ```
 npm start
 ```
+## Deployment
+We can deploy our project using docker <br />
+following are the steps involved in building docker image and running container<br />
+1. To build the image I made Dockerfile which does following steps in order <br />
+    * Install python, pip, npm, requirements 
+    * create meiliesearch service
+    * start meiliesearch service
+    * index the data
+    * installing node modules
+    * builing frontend
+    * configure ngnix to serve built frontend<br />
+    <br>
+2. Build the image from the Dockerfile
+```
+docker build -t search-engine:latest .
+```
+3. Run the container from the built image
+```
+docker run -p 8080:80 search-engine:latest
+```
+requests to 8080 port will be redirected to 80 port of container where nginx is configured
