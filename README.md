@@ -71,3 +71,7 @@ docker build -t search-engine:latest .
 docker run -p 8080:80 search-engine:latest
 ```
 requests to 8080 port will be redirected to 80 port of container where nginx is configured
+
+## Images of Final Product
+![Alt text](images/image-3.png?raw=true )
+![Alt text](images/image-4.png?raw=true )
