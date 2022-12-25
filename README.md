@@ -75,3 +75,4 @@ requests to 8080 port will be redirected to 80 port of container where nginx is 
 ## Images of Final Product
 ![Screenshot](images/image-3.png)
 ![Screenshot](images/image-4.png)
+in images directory
