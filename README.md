@@ -73,6 +73,6 @@ docker run -p 8080:80 search-engine:latest
 requests to 8080 port will be redirected to 80 port of container where nginx is configured
 
 ## Images of Final Product
-![Screenshot](images/image-3.png)
-![Screenshot](images/image-4.png)
+![image-3](https://user-images.githubusercontent.com/85257314/209472542-f512c4cf-e384-4836-a017-f0d613f448db.jpg)
+![image-4](https://user-images.githubusercontent.com/85257314/209472545-79b92c5b-c80e-4a5e-854e-23fdb765d7c4.jpg)
 in images directory
