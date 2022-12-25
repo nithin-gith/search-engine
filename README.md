@@ -7,7 +7,7 @@ To achieve this the tools i used are : <br />
 1. React - for UI to take queries and display search results
 2. meilisearch - for indexing and querying the queries
 3. MUI - for styling the frontend
-4. Docker - for deploying (being done)
+4. Docker - for deploying
 
 ## Implementation
 1. The links data given needed to manipulated to feed into the meilisearch for indexing that isbecause meilisearch takes the entries as documents for which unique id must be present for every link.<br />
